@@ -8,7 +8,7 @@ initGameLibrary(800, 600);
 
 // Global Variables
 let snowflakes = [];
-for (let n = 0; n < 2; n++) {
+for (let n = 0; n < 100; n++) {
     snowflakes.push({
     x: Math.randomDec(0, cnv.width),
     y: Math.randomDec(0, cnv.height),
